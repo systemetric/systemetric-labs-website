@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/posts/2017/04/14/resurrecting-your-robot/</loc>
+<lastmod>2017-04-14T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>/posts/2017/03/04/hello-world/</loc>
+<lastmod>2017-03-04T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/about/</loc>
+</url>
+<url>
+<loc>/contact/</loc>
+</url>
+<url>
+<loc>/get-involved/</loc>
+</url>
+<url>
+<loc>/posts/</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/sponsors/</loc>
+</url>
+</urlset>

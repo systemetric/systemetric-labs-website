@@ -1,0 +1,2 @@
+# 15552000 seconds is 6 months. The last argument is a NFSN special.
+Header set Strict-Transport-Security "max-age=15552000; includeSubDomains;" "expr=%{req_novary:X-Forwarded-Proto}=='https'"

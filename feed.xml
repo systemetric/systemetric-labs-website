@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-04T17:38:54+01:00</updated><id>//</id><title type="html">Systemetric Laboratories</title><subtitle>Systemetric is a robotics team comprising students aged 16–18 from Hills Road Sixth Form College, Cambridge, England.
+</subtitle><entry><title type="html">Resurrecting your robot</title><link href="/posts/2017/04/14/resurrecting-your-robot/" rel="alternate" type="text/html" title="Resurrecting your robot" /><published>2017-04-14T00:00:00+01:00</published><updated>2017-04-14T00:00:00+01:00</updated><id>/posts/2017/04/14/resurrecting-your-robot</id><content type="html" xml:base="/posts/2017/04/14/resurrecting-your-robot/">&lt;p&gt;Want to get your robots moving again? Lacking the kit to do so? Now you can, with the Systemetric Laboratories Robot Revival Software™.&lt;/p&gt;
+
+&lt;h2 id=&quot;required-equipment&quot;&gt;Required equipment&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One (1) &lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-3-model-b/&quot;&gt;Raspberry Pi 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;One (1) 16 GB microSD card (ideally class 10 or UHS)&lt;/li&gt;
+  &lt;li&gt;One (1) copy of the Systemetric Laboratories Robot Revival Software™, available to download in compressed form &lt;a href=&quot;https://mega.nz/#!lqgiTYYD!P3w9HNKfRI45U1dVOYtM4amyQVsNx4X-e4Xt__7sLvg&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;instructions&quot;&gt;Instructions&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download and decompress the Systemetric Laboratories Robot Revival Software™. This may take some time.&lt;/li&gt;
+  &lt;li&gt;Write the Systemetric Laboratories Robot Revival Software™ to your microSD card.
+    &lt;ul&gt;
+      &lt;li&gt;Help on how to do this is available on the &lt;a href=&quot;https://www.raspberrypi.org/documentation/installation/installing-images/README.md&quot;&gt;Raspberry Pi website&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Insert the microSD card into the Raspberry Pi, attach any required peripherals (e.g. webcam), and turn on the power.&lt;/li&gt;
+  &lt;li&gt;Plug a USB stick containing a valid robot.zip into the Raspberry Pi.
+    &lt;ul&gt;
+      &lt;li&gt;Assuming you do not have a Student Robotics power board, any code that tries to access &lt;code class=&quot;highlighter-rouge&quot;&gt;Robot.power&lt;/code&gt; is likely to crash, but most other code should work without issues.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Once the code has been loaded, connect to the Raspberry Pi’s access point (&lt;code class=&quot;highlighter-rouge&quot;&gt;RasPi3AP&lt;/code&gt;) with the password &lt;code class=&quot;highlighter-rouge&quot;&gt;raspberry&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;In a web browser, visit &lt;code class=&quot;highlighter-rouge&quot;&gt;robot.sr&lt;/code&gt; and press the start button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;known-issues&quot;&gt;Known issues&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sometimes, the web interface at &lt;code class=&quot;highlighter-rouge&quot;&gt;robot.sr&lt;/code&gt; may not become accessible after plugging in a USB stick. This is usually due to the robot failing to find the robot.zip, which can be caused by having multiple USB mass storage devices plugged in to the Raspberry Pi. It may be possible to fix this by rebooting the Raspberry Pi, but an easier solution is to copy the robot.zip onto all the USB mass storage devices plugged in to the Raspberry Pi.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have any other problems, &lt;a href=&quot;/contact/&quot;&gt;email us&lt;/a&gt; and we’ll try to help you out.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update 2017-05-04:&lt;/em&gt; Some people have requested a minimal robot.zip they can use to test their setup; you can now download one &lt;a href=&quot;/static/robot.zip&quot;&gt;here&lt;/a&gt;. All it does is print out what markers are visible, forever.&lt;/p&gt;</content><author><name>Josh Holland</name></author><summary type="html">Want to get your robots moving again? Lacking the kit to do so? Now you can, with the Systemetric Laboratories Robot Revival Software™.</summary></entry><entry><title type="html">Hello, World!</title><link href="/posts/2017/03/04/hello-world/" rel="alternate" type="text/html" title="Hello, World!" /><published>2017-03-04T00:00:00+00:00</published><updated>2017-03-04T00:00:00+00:00</updated><id>/posts/2017/03/04/hello-world</id><content type="html" xml:base="/posts/2017/03/04/hello-world/">&lt;p&gt;This is the Systemetric Laboratories website. It’s built with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and hosted by &lt;a href=&quot;https://www.nearlyfreespeech.net/&quot;&gt;NearlyFreeSpeech&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Want to get in touch? Please &lt;a href=&quot;/contact/&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;</content><author><name>Josh Holland</name></author><summary type="html">This is the Systemetric Laboratories website. It’s built with Jekyll and hosted by NearlyFreeSpeech.</summary></entry></feed>
